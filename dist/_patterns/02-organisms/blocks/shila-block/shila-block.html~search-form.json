@@ -1,7 +1,7 @@
 {
     "attributes": {
         "Attribute()": {
-            "class": ["block", "block--messages"]
+            "class": ["block", "block--search-form"]
         }
     },
     "title_attributes": {
@@ -9,5 +9,6 @@
             "class": ["block__title"]
         }
     },
-    "content": "molecules-shila-messages.html"
+    "label": "Search",
+    "content": "molecules-shila-search-form.html"
 }
