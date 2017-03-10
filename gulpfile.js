@@ -20,7 +20,8 @@ config.sass = {
   ],
   watchFiles: [
     './dist/sass/**/*.scss',
-    './dist/_patterns/**/*.scss'
+    './dist/_patterns/**/*.scss',
+    './node_modules/shila-css/**/*.scss'
   ],
   options: {
     includePaths: [
@@ -92,8 +93,7 @@ gulp.task('sass', function () {
     .pipe(sass(config.sass.options).on('error', sass.logError))
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest(config.sass.destDir))
-    .pipe(browserSync.stream({match: '**/*.css' }));
-    ;
+    .pipe(browserSync.stream({match: '**/*.css'}));
 });
 
 /**
