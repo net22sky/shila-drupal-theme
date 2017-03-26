@@ -7,7 +7,7 @@
   .region-container {
     background-color: $shila-content-background-color;
   }
-  .block:first-child {
-    margin-top: $shila-large-spacing;
+  .region--content {
+    padding-top: $shila-large-spacing;
   }
 }
