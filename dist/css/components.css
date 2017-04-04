@@ -144,7 +144,7 @@
 }
 
 .card--layout-breakpoint .card__image:not(:empty) {
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.8rem;
 }
 
 .card--layout-breakpoint .card__body {
@@ -228,7 +228,7 @@
 }
 
 .form .form-item {
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.8rem;
 }
 
 .form .description {
@@ -274,8 +274,8 @@
   background-color: #e5edf8;
   color: #244e87;
   display: block;
-  margin-bottom: 0.65rem;
-  padding: 0.65rem;
+  margin-bottom: 0.8rem;
+  padding: 0.8rem;
   text-align: center;
 }
 
@@ -292,8 +292,8 @@
   background-color: #fff6bf;
   color: #8c7800;
   display: block;
-  margin-bottom: 0.65rem;
-  padding: 0.65rem;
+  margin-bottom: 0.8rem;
+  padding: 0.8rem;
   text-align: center;
 }
 
@@ -310,8 +310,8 @@
   background-color: #fbe3e4;
   color: #97161b;
   display: block;
-  margin-bottom: 0.65rem;
-  padding: 0.65rem;
+  margin-bottom: 0.8rem;
+  padding: 0.8rem;
   text-align: center;
 }
 
@@ -437,11 +437,10 @@
 
 .pager li {
   display: inline-block;
-  padding-left: 0.65rem;
 }
 
-.pager li:first-child {
-  padding-left: 0;
+.pager li + li {
+  padding-left: 0.8rem;
 }
 
 .pager a {
@@ -527,9 +526,9 @@ code {
 .taxonomy-terms .taxonomy-term {
   display: inline-block;
   border: 1px solid #1565c0;
-  border-radius: 21px;
-  padding: 0 0.65rem;
-  margin-bottom: 0.325rem;
+  border-radius: 29px;
+  padding: 0 0.8rem;
+  margin-bottom: 0.4rem;
 }
 
 /**
@@ -752,7 +751,7 @@ code {
 }
 
 .page__content .region--content {
-  padding-top: 2.6rem;
+  padding-top: 3.2rem;
 }
 
 /**
@@ -788,11 +787,10 @@ code {
 
 .page__header .nav > ul li {
   display: inline-block;
-  padding-left: 0.65rem;
 }
 
-.page__header .nav > ul li:first-child {
-  padding-left: 0;
+.page__header .nav > ul li + li {
+  padding-left: 0.8rem;
 }
 
 .page__header .nav > ul a {
@@ -838,7 +836,7 @@ code {
  * organisms/sections/shila-card-list/_shila-card-list.scss
  */
 .card-list .card + .card {
-  margin-top: 1.3rem;
+  margin-top: 1.6rem;
 }
 
 .card-list--layout-default .card .card__image {
@@ -850,7 +848,7 @@ code {
 }
 
 .card-list--layout-default .card .card__image:not(:empty) {
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.8rem;
 }
 
 .card-list--layout-default .card .card__body {
@@ -887,7 +885,7 @@ code {
 }
 
 .card-list--layout-multicol .card .card__image:not(:empty) {
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.8rem;
 }
 
 .card-list--layout-multicol .card .card__body {
@@ -924,7 +922,7 @@ code {
     clear: none;
   }
   .card-list--layout-multicol .card .card__image:not(:empty) {
-    margin-bottom: 0.65rem;
+    margin-bottom: 0.8rem;
   }
   .card-list--layout-multicol .card .card__body {
     width: 100%;
@@ -971,7 +969,7 @@ code {
     clear: none;
   }
   .card-list--layout-multicol .card .card__image:not(:empty) {
-    margin-bottom: 0.65rem;
+    margin-bottom: 0.8rem;
   }
   .card-list--layout-multicol .card .card__body {
     width: 100%;
@@ -1028,7 +1026,7 @@ code {
     clear: none;
   }
   .card-list--layout-multicol .card .card__image:not(:empty) {
-    margin-bottom: 0.65rem;
+    margin-bottom: 0.8rem;
   }
   .card-list--layout-multicol .card .card__body {
     width: 100%;
@@ -1044,15 +1042,15 @@ code {
  * organisms/sections/shila-comments/_shila-comments.scss
  */
 .comments {
-  margin-top: 2.6rem;
+  margin-top: 3.2rem;
 }
 
 .comments .comment + .comment {
-  margin-top: 2.6rem;
+  margin-top: 3.2rem;
 }
 
 .comments .indented {
-  padding-left: 1.3rem;
+  padding-left: 1.6rem;
 }
 
 .comments__title {
@@ -1064,7 +1062,7 @@ code {
  * organisms/sections/shila-front-page-listing/_shila-front-page-listing.scss
  */
 .front-page-listing__row + .front-page-listing__row {
-  margin-top: 2.6rem;
+  margin-top: 3.2rem;
 }
 
 /*# sourceMappingURL=components.css.map */

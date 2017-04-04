@@ -10,6 +10,11 @@
 @import 'singularitygs';
 @import 'breakpoint';
 
+$shila-base-font-size: 18px;
+$shila-s-font-size: 20px;
+$shila-m-font-size: 20px;
+$shila-l-font-size: 20px;
+$shila-base-line-height: 1.6;
 @import 'partials/settings/settings.core';
 @import 'partials/settings/settings.animations';
 @import 'partials/settings/settings.colors';
