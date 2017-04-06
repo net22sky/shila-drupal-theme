@@ -94,7 +94,100 @@
 
 /**
  * @file
- * dist/_patterns/01-molecules/components/next-previous/_next-previous.scss
+ * dist/_patterns/01-molecules/components/ap-accounts/_ap-accounts.scss
+ */
+.accounts {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: center;
+}
+
+.accounts li {
+  display: inline-block;
+}
+
+.accounts li + li {
+  padding-left: 0.8rem;
+}
+
+.accounts a {
+  color: gray;
+  text-decoration: none;
+  transition: color 150ms ease;
+}
+
+.accounts a:active, .accounts a:focus, .accounts a:hover {
+  color: #606060;
+}
+
+.accounts .is-active {
+  color: #606060;
+}
+
+@media (min-width: 525px) {
+  .accounts {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+  }
+  .accounts li {
+    display: inline-block;
+  }
+  .accounts li + li {
+    padding-left: 1.6rem;
+  }
+  .accounts a {
+    color: gray;
+    text-decoration: none;
+    transition: color 150ms ease;
+  }
+  .accounts a:active, .accounts a:focus, .accounts a:hover {
+    color: #606060;
+  }
+  .accounts .is-active {
+    color: #606060;
+  }
+}
+
+.account a {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.account--rss a {
+  background-image: url("../images/icons/white/svg/rss.svg");
+}
+
+.account--twitter a {
+  background-image: url("../images/icons/white/svg/twitter.svg");
+}
+
+.account--github a {
+  background-image: url("../images/icons/white/svg/github.svg");
+  background-size: 95%;
+}
+
+.account--drupal a {
+  background-image: url("../images/icons/white/svg/drupal.svg");
+  background-size: 90%;
+}
+
+.account--linkedin a {
+  background-image: url("../images/icons/white/svg/linkedin.svg");
+  background-size: 90%;
+}
+
+/**
+ * @file
+ * dist/_patterns/01-molecules/components/ap-next-previous/_ap-next-previous.scss
  */
 .next-previous {
   margin-top: 1.5rem;
@@ -758,8 +851,25 @@ code {
  * @file
  * organisms/global/shila-page-footer/_shila-page-footer.scss
  */
+.page__footer {
+  color: white;
+  background-color: #404040;
+}
+
+.page__footer a {
+  color: white;
+}
+
 .page__footer .region-container {
-  background-color: white;
+  padding-top: 1.6rem;
+}
+
+.page__footer .region-container .block {
+  margin-bottom: 3.2rem;
+}
+
+.page__footer .region-container .block:last-child {
+  margin-bottom: 1.6rem;
 }
 
 /**

@@ -4,7 +4,18 @@
  */
 
 .page__footer {
+  color: $shila-white;
+  background-color: $shila-darker-gray;
+  a {
+    color: $shila-white;
+  }
   .region-container {
-    background-color: $shila-content-background-color;
+    padding-top: $shila-base-spacing;
+    .block {
+      margin-bottom: $shila-large-spacing;
+    }
+    .block:last-child {
+      margin-bottom: $shila-base-spacing;
+    }
   }
 }

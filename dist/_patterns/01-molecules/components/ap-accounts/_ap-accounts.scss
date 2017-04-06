@@ -1,0 +1,39 @@
+/**
+ * @file
+ * dist/_patterns/01-molecules/components/ap-accounts/_ap-accounts.scss
+ */
+
+.accounts {
+  @include shila-horizontal-nav($shila-small-spacing);
+  @include breakpoint($shila-s-break) {
+    @include shila-horizontal-nav($shila-base-spacing);
+  }
+}
+.account {
+  a {
+    @include shila-hide-text;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+.account--rss a {
+  background-image: url('../images/icons/white/svg/rss.svg');
+}
+.account--twitter a {
+  background-image: url('../images/icons/white/svg/twitter.svg');
+}
+.account--github a {
+  background-image: url('../images/icons/white/svg/github.svg');
+  background-size: 95%;
+}
+.account--drupal a {
+  background-image: url('../images/icons/white/svg/drupal.svg');
+  background-size: 90%;
+}
+.account--linkedin a {
+  background-image: url('../images/icons/white/svg/linkedin.svg');
+  background-size: 90%;
+}
