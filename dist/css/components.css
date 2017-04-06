@@ -827,12 +827,52 @@ code {
  * organisms/global/shila-off-canvas/_shila-off-canvas.scss
  */
 .off-canvas {
+  padding-top: 0.8rem;
+  padding-bottom: 1.6rem;
   background-color: #9f9f9f;
-  padding: 1rem;
 }
 
 .off-canvas a {
   color: #202020;
+}
+
+.off-canvas .region {
+  margin: 0;
+}
+
+.off-canvas .menu {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-size: 18px;
+  font-size: 1rem;
+  line-height: 1.61111;
+  text-transform: uppercase;
+}
+
+.off-canvas .menu li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.off-canvas .menu li {
+  border-top: 1px solid #9a9a9a;
+}
+
+.off-canvas .menu li:last-child {
+  border-bottom: 1px solid #9a9a9a;
+}
+
+.off-canvas .menu a {
+  display: block;
+  padding: 0.8rem 1.6rem;
+}
+
+.off-canvas .menu a:hover {
+  background-color: #9a9a9a;
+  text-decoration: none;
 }
 
 /**
